@@ -12,10 +12,10 @@
           <div class=" text-white text-sm font-semibold my-4 lg:mx-4 cursor-pointer">FAQ</div>
    </div>
      <div class="flex items-center flex-row justify-center">
-        <img src="../assets/social icons/facebook-app-symbol.png" alt="facebook" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
-        <img src="../assets/social icons/twitter.png" alt="twitter" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
-        <img src="../assets/social icons/slack.png" alt="slack" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
-        <img src="../assets/social icons/github.png" alt="github " class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
+        <img src="../assets/socialicons/facebook-app-symbol.png" alt="facebook" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
+        <img src="../assets/socialicons/twitter.png" alt="twitter" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
+        <img src="../assets/socialicons/slack.png" alt="slack" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
+        <img src="../assets/socialicons/github.png" alt="github " class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
    </div>
 </div>
 </template>
