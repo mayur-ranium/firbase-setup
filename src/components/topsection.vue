@@ -21,7 +21,7 @@
          <div class="bg-[#2500f9] text-base font-bold px-10 py-5 w-52 mx-auto lg:mx-0 lg:w-auto text-white rounded-full cursor-pointer" >
          Try for free
      </div>
-        <div class="text-[#2500f9] mt-4  lg:ml-6 font-lg cursor-pointer">Watch demo video</div>
+        <div class="text-[#2500f9] mt-4 lg:mt-0 lg:ml-6 font-lg cursor-pointer">Watch demo video</div>
     </div>
     </div>
     <div class="topsection-mobilephone-img w-96 lg:w-auto mt-10 mx-auto">
