@@ -1,11 +1,11 @@
 <template>
-<div class="app-features container flex-wrap lg:flex justify-center items-center mx-auto p-5 pb-20">
+<div class="app-features container flex-wrap lg:flex justify-center items-center mx-auto p-0 pb-20">
     <div class="bg-smartSearchbg bg-no-repeat bg-center bg-contain mr-14"> 
         <img src="../assets/smart-search.png" alt="smart-search-mobile" class="w-96 mx-auto">
     </div>
-    <div class="px-5 lg:py-0 w-auto">
+    <div class="px-2.5 lg:py-0 w-auto">
        <div>
-           <div class="text-[#242f51] font-semibold text-lg lg:text-3xl w-80">
+           <div class="text-[#242f51] font-semibold text-lg lg:text-3xl w-full lg:w-80">
            Awesome apps Features
            </div>
            <p class="text-sm text-gray-900 mt-2 lg:mt-4 lg:w-96">

@@ -5,8 +5,6 @@
   <clients></clients>
   <appfeature></appfeature>
   <appfooter></appfooter>
-
-
 </div>
 
 </template>

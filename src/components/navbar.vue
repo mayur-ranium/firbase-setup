@@ -6,33 +6,37 @@
     <span class="text-[#242f51]">Lab</span>
 </div>
 <div class="hidden lg:flex items-center text-[#242f51]">
-     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Home</a>
-     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Key Features</a>
-     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Pricing</a>
-     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Testiminial</a>
-     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">FAQ</a>
-     <div class="bg-[#2500f9] text-base font-bold px-10 py-5 text-white rounded-full mx-auto cursor-pointer ">
+     <a href="#" class=" mr-10">Home</a>
+     <a href="#" class=" mr-10">Key Features</a>
+     <a href="#" class=" mr-10">Pricing</a>
+     <a href="#" class=" mr-10">Testiminial</a>
+     <a href="#" class=" mr-10">FAQ</a>
+     <div class="bg-[#2500f9] text-base font-bold px-10 lg:ml-5 py-5 text-white rounded-full mx-auto cursor-pointer ">
          <span class="w-44">Try for free</span> 
      </div>
 </div>
 </div>
 
 </div>
-<div class="mobile-view flex justify-between py-10 px-10 lg:pt-0 lg:px-0">
-    <div class="font-bold lg:hidden block text-3xl cursor-pointer">
+
+<div class="mobile-view flex
+lg:hidden fixed z-50 top-0 bg-white shadow w-full justify-between py-5 px-2.5 lg:pt-0 lg:px-0">
+    <div class="font-bold  text-3xl cursor-pointer">
     <span class="text-[#fcb874]">App</span>
     <span class="text-[#242f51]">Lab</span>
 </div>
-        <div @click="openMenu()" class=" lg:hidden block">
+        <div @click="openMenu()" class=" ">
                 <img src="../assets/more.png" alt="" class="w-10 p-1 border-2">
         </div>
  
- <div id="myMenu" class="hidden bg-black text-base font-medium absolute w-full top-24 right-0 left-0 text-center">
-  <a href="#" class="block mt-4  py-3 text-white hover:opacity-5">Home</a>
-     <a href="#" class="block mt-4  py-3  text-white">Key Features</a>
-     <a href="#" class="block mt-4 py-3 text-white">Pricing</a>
-     <a href="#" class="block mt-4 py-3 text-white">Testiminial</a>
-     <a href="#" class="block mt-4 py-3 text-white">FAQ</a>
+ <div id="myMenu" class="hidden bg-[#09142e] text-base font-medium absolute w-full top-[5rem] right-0 left-0 text-center">
+  <a href="#" class="block py-5 text-white">Home</a>
+     <a href="#" class="block py-5 text-white">Key Features</a>
+     <a href="#" class="block py-5 text-white">Pricing</a>
+     <a href="#" class="block py-5 text-white">Testiminial</a>
+     <a href="#" class="block py-5 text-white">FAQ</a>
+     <a href="#" class="block py-5 text-white font-semibold">Try for Free</a>
+
 
  </div>
  
