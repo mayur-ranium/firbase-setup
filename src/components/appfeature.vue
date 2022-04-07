@@ -1,11 +1,11 @@
 <template>
-<div class="app-features flex-col-reverse lg:flex-row lg:flex lg:justify-center lg:items-center lg:px-20 py-5 my-10 lg:my-20">
-    <div class="bg-smartSearchbg bg-no-repeat bg-center bg-contain w-full lg:w-2/5 lg:h-2/5"> 
-        <img src="../assets/smart-search.png" alt="smart-search-mobile" class="w-full h-full">
+<div class="app-features container flex-wrap lg:flex justify-center items-center mx-auto p-5 pb-20">
+    <div class="bg-smartSearchbg bg-no-repeat bg-center bg-contain mr-14"> 
+        <img src="../assets/smart-search.png" alt="smart-search-mobile" class="w-96 mx-auto">
     </div>
-    <div class="px-10 w-auto">
+    <div class="px-5 lg:py-0 w-auto">
        <div>
-           <div class="text-black font-bold text-lg lg:text-3xl w-80">
+           <div class="text-[#242f51] font-semibold text-lg lg:text-3xl w-80">
            Awesome apps Features
            </div>
            <p class="text-sm text-gray-900 mt-2 lg:mt-4 lg:w-96">
@@ -17,7 +17,7 @@
                <img src="../assets/speed.png" alt="" class="w-10">
            </div>
            <div class="mt-4">
-               <div class="text-red-600 font-extrabold text-lg">Fast Performance</div>
+               <div class="text-red-600 font-semibold text-lg">Fast Performance</div>
                <p class="text-gray-900 text-sm md:w-60 w-auto ">
                    Get your blood test delivered at home collect a sample from the news your blood tests. 
                </p>
@@ -28,7 +28,7 @@
                <img src="../assets/prototyping.png" alt="" class="w-10">
            </div>
            <div class="mt-4">
-               <div class="text-blue-600 font-extrabold text-lg">Prototyping</div>
+               <div class="text-blue-600 font-semibold text-lg">Prototyping</div>
                <p class="text-gray-900 text-sm md:w-60 w-auto ">
                    Get your blood test delivered at home collect a sample from the news your blood tests. 
                </p>
@@ -39,7 +39,7 @@
                <img src="../assets/vector-editing.png" alt="" class="w-10">
            </div>
            <div class="mt-4">
-               <div class="text-green-600 font-extrabold text-lg">Vector Editing</div>
+               <div class="text-green-600 font-semibold text-lg">Vector Editing</div>
                <p class="text-gray-900 text-sm md:w-60 w-auto ">
                    Get your blood test delivered at home collect a sample from the news your blood tests. 
                </p>

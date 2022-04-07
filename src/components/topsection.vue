@@ -1,19 +1,30 @@
 <template>
-<div class="best-app-section">
-    <div class="mt-6 flex xl:flex-row lg:justify-between  flex-col justify-center items-center lg:px-60 md:px-30 px-10 bg-hero bg-contain bg-bottom bg-no-repeat">
-    <div class="lg:w-1/2 w-auto">
-    <h1 class="lg:text-6xl w-auto text-4xl font-bold text-black">
+<div class="best-app-section bg-hero bg-contain bg-bottom bg-no-repeat">
+    <div class="container flex-wrap justify-center lg:flex lg:justify-between items-center mx-auto pb-10 lg:px-32">
+    <div class="w-full lg:w-1/2">
+    <div class="flex bg-slate-100 items-center w-[25rem] rounded-full mb-6">
+    <div class="w-10 bg-[#fcb874] p-2 rounded-full mr-4">
+        <img src="../assets/correct.png" alt="" classs="">
+    </div>
+    <div class="py-1 pr-12 text-xl">
+      #1 Editors Choice App of 2020 
+    </div>
+
+    </div>
+    <h1 class="lg:text-6xl w-auto text-4xl font-semibold lg:leading-tight text-[#242f51]">
        Best app for your modern lifestyle
     </h1>
-    <p class="text-sm lg:text-lg text-gray-900 mt-4 xl:w-96 lg;w-auto">
+    <p class="text-sm lg:text-lg text-gray-900 mt-4 pr-8">
         increase productivity with a simple to-do app, app for managing your personal budgets.   
     </p>
-    <div class= "lg:flex text-center items-center text-sm mt-6">
-        <div class="bg-[#2500f9] text-white px-6 py-2 font-extrabold rounded-full cursor-pointer w-32 m-auto lg:m-0">Try for free</div>
-        <div class="text-blue-500 ml-0 mt-4 lg:mt-0 lg:ml-6 font-medium cursor-pointer hover:to-blue-900">Watch demo video</div>
+    <div class= "lg:flex items-center text-center flex-wrap text-sm mt-6">
+         <div class="bg-[#2500f9] text-base font-bold px-10 py-5 w-52 mx-auto lg:mx-0 lg:w-auto text-white rounded-full cursor-pointer" >
+         Try for free
+     </div>
+        <div class="text-[#2500f9] mt-4  lg:ml-6 font-lg cursor-pointer">Watch demo video</div>
     </div>
     </div>
-    <div class="topsection-mobilephone-img w-40 h-auto lg:w-auto mt-10 lg:mx-auto">
+    <div class="topsection-mobilephone-img w-96 lg:w-auto mt-10 mx-auto">
         <img src="../assets/phone.png" alt="mobile-phone" >
     </div>
 

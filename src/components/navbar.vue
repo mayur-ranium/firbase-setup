@@ -1,26 +1,62 @@
 <template>
 <div class="desk-view">
-<div class="hidden lg:py-14 lg:px-40 lg:flex flex-none items-center flex-col lg:flex-row text-center lg:justify-between ">
-<div class="font-black text-2xl left-side-nav cursor-pointer">
+<div class="lg:container flex justify-between items-center lg:pt-20 lg:pb-0 lg:px-20 mx-auto">
+<div class="font-bold hidden lg:block text-3xl cursor-pointer">
     <span class="text-[#fcb874]">App</span>
-    <span class="text-black">Lab</span>
+    <span class="text-[#242f51]">Lab</span>
 </div>
-<div class="flex-none text-center text-sm lg:flex lg:items-center  text-black">
-     <div class="px-3 cursor-pointer hover:font-medium ">Home</div>
-     <div class="px-3 cursor-pointer hover:font-medium ">Key Features</div>
-     <div class="px-3 cursor-pointer hover:font-medium ">Pricing</div>
-     <div class="px-3 cursor-pointer hover:font-medium ">Testiminial</div>
-     <div class="px-3 cursor-pointer hover:font-medium ">FAQ</div>
-     <div class="bg-[#2500f9] mx-auto w-32 lg:ml-4 text-white px-6 py-2 font-black rounded-full cursor-pointer opacity-100 hover:opacity-70">
-         Try for free
+<div class="hidden lg:flex items-center text-[#242f51]">
+     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Home</a>
+     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Key Features</a>
+     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Pricing</a>
+     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">Testiminial</a>
+     <a href="#" class="block mt-4 lg:inline-block lg:mt-0 mr-10">FAQ</a>
+     <div class="bg-[#2500f9] text-base font-bold px-10 py-5 text-white rounded-full mx-auto cursor-pointer ">
+         <span class="w-44">Try for free</span> 
      </div>
 </div>
-
 </div>
 
 </div>
-<div class="mobile-view">
+<div class="mobile-view flex justify-between py-10 px-10 lg:pt-0 lg:px-0">
+    <div class="font-bold lg:hidden block text-3xl cursor-pointer">
+    <span class="text-[#fcb874]">App</span>
+    <span class="text-[#242f51]">Lab</span>
+</div>
+        <div @click="openMenu()" class=" lg:hidden block">
+                <img src="../assets/more.png" alt="" class="w-10 p-1 border-2">
+        </div>
+ 
+ <div id="myMenu" class="hidden bg-black text-base font-medium absolute w-full top-24 right-0 left-0 text-center">
+  <a href="#" class="block mt-4  py-3 text-white hover:opacity-5">Home</a>
+     <a href="#" class="block mt-4  py-3  text-white">Key Features</a>
+     <a href="#" class="block mt-4 py-3 text-white">Pricing</a>
+     <a href="#" class="block mt-4 py-3 text-white">Testiminial</a>
+     <a href="#" class="block mt-4 py-3 text-white">FAQ</a>
 
+ </div>
+ 
 </div>
 
 </template>
+<script>
+export default {
+    name: "navbar",
+    data(){
+        return{
+         
+        };
+    },
+    methods:{
+        openMenu(){
+    var x = document.getElementById("myMenu");
+      if (x.style.display === "block") {
+          x.style.display = "none";
+      } else {
+      x.style.display = "block";
+      }
+        }
+    }
+
+}
+</script>

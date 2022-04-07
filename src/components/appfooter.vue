@@ -1,5 +1,6 @@
 <template>
-<div class="footer bg-[#09142e] pt-20 py-60">
+<div class="footer  bg-[#09142e]">
+   <div class="container  mx-auto pt-20 pb-60">
     <div class="font-black text-center cursor-pointer text-3xl">
     <span class="text-[#fcb874]">App</span>
     <span class="text-white">Lab</span>
@@ -16,6 +17,8 @@
         <img src="../assets/socialicons/twitter.png" alt="twitter" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
         <img src="../assets/socialicons/slack.png" alt="slack" class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
         <img src="../assets/socialicons/github.png" alt="github " class="w-8 h-8 mx-4 opacity-10 hover:opacity-100 cursor-pointer">
+   </div>
+
    </div>
 </div>
 </template>
