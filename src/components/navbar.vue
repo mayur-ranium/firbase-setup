@@ -26,7 +26,7 @@
     <span class="text-primary-clr">Lab</span>
 </div>
         <div @click="openMenu()" class=" ">
-                <img src="../assets/more.png" alt="" class="w-10 p-1 border-2">
+                <img src="../assets/more.png" alt="" class="w-10 p-1 border-2 rounded-sm">
         </div>
  
  <div id="myMenu" class="hidden bg-blue text-base font-medium absolute w-full top-[5rem] right-0 left-0 py-4 text-center ">
