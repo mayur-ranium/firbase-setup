@@ -1,6 +1,6 @@
 <template>
-<div class="app-features container flex-wrap lg:flex justify-center items-center mx-auto lg:mt-28 mb-24 lg:mb-48">
-    <div class="bg-smartSearchbg bg-no-repeat bg-center bg-contain mr-28"> 
+<div class="app-features container flex-wrap lg:flex justify-around items-center mx-auto lg:mt-28 mb-24 lg:mb-48">
+    <div class="bg-smartSearchbg bg-no-repeat bg-center bg-contain"> 
         <img src="../assets/smart-search.png" alt="smart-search-mobile" class="w-96 mx-auto">
     </div>
     <div class="px-4 w-auto">

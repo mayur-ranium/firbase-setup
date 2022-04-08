@@ -25,8 +25,10 @@
     <span class="text-orange">App</span>
     <span class="text-primary-clr">Lab</span>
 </div>
-        <div @click="openMenu()" class=" ">
-                <img src="../assets/more.png" alt="" class="w-10 p-1 border-2 rounded-sm">
+        <div @click="openMenu()" class=" flex">
+                <img src="../assets/close.png" alt="" class="w-8 h-8 p-1" v-if="showImg">
+                <img src="../assets/more.png" alt="" class="w-8 h-8" v-else>
+
         </div>
  
  <div id="myMenu" class="hidden bg-blue text-base font-medium absolute w-full top-[5rem] right-0 left-0 py-4 text-center ">
@@ -49,7 +51,7 @@ export default {
     name: "navbar",
     data(){
         return{
-         
+          showImg : false,
         };
     },
     methods:{
@@ -57,8 +59,10 @@ export default {
     var x = document.getElementById("myMenu");
       if (x.style.display === "block") {
           x.style.display = "none";
+          this.showImg = false;
       } else {
       x.style.display = "block";
+          this.showImg = true;
       
       }
         }
