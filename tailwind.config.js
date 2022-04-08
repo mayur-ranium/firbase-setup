@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'hero': "url('/src/assets/skyline.png')",
-        'heroVector': "url('/src/assets/hero-vector.png')",
         'smartSearchbg': "url('/src/assets/smart-search-bg.png')",
       }),
       colors: {

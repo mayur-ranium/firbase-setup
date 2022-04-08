@@ -1,4 +1,5 @@
 <template>
+
 <div class="best-app-section bg-hero bg-contain bg-bottom bg-no-repeat">
     <div class="container w-full flex-wrap lg:flex lg:justify-between items-center mx-auto pb-10 mt-32 lg:mt-0 lg:px-32">
     <div class="mt-12 w-full lg:w-1/2 text-center lg:text-left">
@@ -18,7 +19,7 @@
         increase productivity with a simple to-do app, app for managing your personal budgets.   
     </p>
     <div class= "lg:flex items-center text-center flex-wrap text-sm mt-6">
-         <div class="bg-dark-blue text-sm text-base font-bold py-2 px-0 lg:px-10 lg:py-5 w-40 mx-auto lg:mx-0 lg:w-auto text-white rounded-full cursor-pointer" >
+         <div class="bg-dark-blue text-base font-bold py-2 px-0 lg:px-10 lg:py-5 w-40 mx-auto lg:mx-0 lg:w-auto text-white rounded-full cursor-pointer" >
          Try for free
      </div>
         <div class="text-dark-blue mt-4 lg:mt-0 lg:ml-6 text-base cursor-pointer">Watch demo video</div>
