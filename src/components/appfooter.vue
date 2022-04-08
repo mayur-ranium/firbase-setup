@@ -1,8 +1,8 @@
 <template>
-<div class="footer  bg-[#09142e]">
+<div class="footer  bg-blue">
    <div class="container  mx-auto pt-20 pb-60">
     <div class="font-black text-center cursor-pointer text-3xl">
-    <span class="text-[#fcb874]">App</span>
+    <span class="text-orange">App</span>
     <span class="text-white">Lab</span>
    </div>
    <div class="flex items-center flex-col justify-center lg:flex-row my-6 ">
